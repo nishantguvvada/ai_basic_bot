@@ -1,8 +1,12 @@
-# React + Vite
+# Basic Bot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Basic Bot is a sample to showcase integration of AI, specifically LLMs, with websites or in this case, a React application.
 
-Currently, two official plugins are available:
+# Technical Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The frontend built using React takes in the input from the user, formats the message into a format acceptable by the AI API and appends it to the list of messages before sending it to the AI model.
+
+## To-do:
+
+- Create a text input to allow users to paste the API key
+- Create a drop down element to allow users to select the model
